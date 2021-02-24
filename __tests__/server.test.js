@@ -34,5 +34,6 @@ describe('API Server', () => {
     expect(response.status).toEqual(200);
     expect(response.body.time).toBeDefined();
   })
+  console.log("hello fix");
 
 });
